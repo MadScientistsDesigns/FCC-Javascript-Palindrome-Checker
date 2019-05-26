@@ -1,0 +1,48 @@
+body {
+    background: rgb(137, 148, 151);
+}
+
+.container {
+    background: rgb(243, 246, 252);
+    width: 50%;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+#inputSec {
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+button {
+    height: 36px;
+    width: 80px;
+    background: rgb(1, 1, 139);
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px #333;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+    text-shadow: 1px 1px #333;
+}
+
+p {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+}
