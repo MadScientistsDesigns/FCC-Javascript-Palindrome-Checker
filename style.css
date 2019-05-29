@@ -1,12 +1,18 @@
 body {
-    background: rgb(137, 148, 151);
+    background-color: #ccc;
+    background-image: url(amador-loureiro-779-unsplash30.jpg);
+    background-repeat: repeat;
+    background-position: center; 
+    background-size: cover;
 }
 
+/* container */
 .container {
     background: rgb(243, 246, 252);
     width: 50%;
-    margin: 25px auto;
+    margin: 10% auto 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 #inputSec {
@@ -21,10 +27,14 @@ input {
 button {
     height: 36px;
     width: 80px;
-    background: rgb(1, 1, 139);
+    background: #555;
     color: white;
     font-weight: bold;
     box-shadow: 2px 2px #333;
+}
+
+button:hover {
+    background: #333;
 }
 
 h1 {
@@ -37,6 +47,14 @@ p {
     color: #333;
     font-size: 20px;
     text-align: center;
+}
+/* end container */
+
+#photoRef, a{
+    color: rgb(216, 214, 214);
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 500px){
